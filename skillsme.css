@@ -1,0 +1,84 @@
+body{
+    background-color: rgb(32, 30, 36);
+   text-align:center;
+}
+.body-container{
+    color: antiquewhite;
+}
+/* .main-content{
+    align:center !important;
+} */
+
+.inline_paragraphs{
+    margin: 0; display: inline;
+ align-content:right;
+ border-bottom: 3px solid aliceblue;
+ border-radius: 5%;
+ /* margin-bottom: 20px; */
+ padding-bottom: 6px;
+ text-transform:capitalize;
+ margin:0 9px;
+ color: antiquewhite
+}
+/* to style a border seperately add TARGET="_" to the element tag */
+
+p[target]{
+    border-color:darkgray;
+}
+/* to make a color change on border when you hover use :hover{border-block-end-color */
+    
+p[target]:hover{
+   border-block-end-color: antiquewhite;
+}
+input{
+    margin-top:20px;
+
+}
+
+/* .form-hover:hover{
+    color: blue !important;
+} */
+
+.form_border{
+    border: 1px solid antiquewhite;
+    border-radius: 50px;
+    padding: 12px;
+    width: 200px;
+    /* height: 28px; */
+    text-transform: capitalize;
+    margin-top: 12px;
+}
+.form_border:hover{
+    background-color: blue;
+}
+
+#register-button{
+    color: rgb(21, 77, 149);
+    font-weight: bold;
+    width: 120px;
+    /* padding: 19px 19px 19px 19px; */
+    text-align: center;
+}
+
+#register-button:hover{
+    background-color: rgb(17, 37, 104);
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: darkgray;
+}
+
+a:hover{
+    color: antiquewhite;
+}
+h3{
+    text-transform: capitalize;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+p a{
+   border-color:gray;
+}
+/* p+div{
+    color:blue;
+} */
